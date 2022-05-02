@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
-
+import CreatePost from './Components/CreatePost/CreatePost';
 function App() {
  
   const now = Date()
-  const [posts, setPosts] = useState([{username: "Tarsha Simmon," postBody: "I can't wait try a new recipe tonight.", timestamp: now}])
+  const [posts, setPosts] = useState([{username: "Tarsha Simmons", postBody: "I can't wait try a new recipe tonight.", timestamp: 'now'}])
   
   return (
     <div>
-     <h3> Hello World </h3>
-    </div>
+            <NavBar/>
+            <Post addNewEntryProperty={addNewEntry}/>      
+            <DisplayPost parentEntries={entries}/>
+      </div>
   );
-}
-
-export default App;
+  }
+    export default App;
