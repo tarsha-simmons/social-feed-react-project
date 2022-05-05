@@ -4,7 +4,8 @@ import './DisplayPosts.css'
 const DisplayPosts = (props) => {
 
 
-    return(  <div>
+    return(  
+    <div>
         <table>
         <thead>
             <tr>

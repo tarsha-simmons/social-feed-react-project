@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import CreatePost from './Components/CreatePost/CreatePost';
+import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
+import '.App.css'
 
 function App() {
  
