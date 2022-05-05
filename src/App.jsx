@@ -17,7 +17,7 @@ function App() {
     <div className = "App">
             <NavBar/>
             <CreatePost addNewPost={addNewPost}/>      
-            <DisplayPost pagePosts={posts}/>
+            <DisplayPosts pagePosts={posts}/>
       </div>
   );
   }

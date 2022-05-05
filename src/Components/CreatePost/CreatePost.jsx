@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './CreatePost.css'
 
 const CreatePost = (props) => {
     const [username, setUsername] = useState ("");
@@ -12,7 +13,7 @@ const CreatePost = (props) => {
         postBody: postBody,
         timestamp: Date()
         }
-        props.addNewPost(newPost);
+        props.createNewPost(newPost);
     }
     return (
         <div>
